@@ -1,0 +1,18 @@
+#Brightness Down
+XF86MonBrightnessDown
+    brightnessctl -s s 10%-
+#Brightness Up
+XF86MonBrightnessUp
+    brightnessctl -s s +10%
+#Raise Volume
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +5%
+#Lower Volume
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -5%
+#Mute Volume
+XF86AudioMute
+    pactl set-sink-mute 0 toggle
+#Open chrome
+mod4 + c
+    google-chrome-stable &
