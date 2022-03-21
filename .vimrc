@@ -1,3 +1,5 @@
+" Perso
+autocmd BufNewFile *.html 0r ~/config/vim_templates/html.skel
 filetype plugin indent on    " required
 let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
